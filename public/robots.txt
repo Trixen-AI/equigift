@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+# The dashboard and gift links are personal: keep them out of search results.
+Disallow: /app
+Disallow: /claim
+
+Sitemap: https://equigift.xyz/sitemap.xml

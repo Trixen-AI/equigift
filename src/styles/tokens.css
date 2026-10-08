@@ -1,0 +1,91 @@
+/* Equigift design tokens. Palette taken from zats.market: near-black sections,
+   white type, one orange accent (with dark text on it), mist surfaces and
+   sky / mint tints for small accents. */
+:root {
+  /* palette */
+  --orange: #f98500;
+  --orange-hover: #e07600;
+  --orange-press: #c86900;
+  --orange-ink: #b35c00; /* orange for text on light backgrounds (4.7:1 on white) */
+  --orange-50: #fff3e3;
+  --orange-200: #ffc680;
+  --black: #0a0a0b;
+  --anthracite: #232323;
+  --graphite: #323232;
+  --grey-deep: #6b6b6b;
+  --grey: #999999;
+  --mist: #f3f3f3;
+  --sky: #bcefff;
+  --mint: #71cfa3;
+  --white: #ffffff;
+
+  /* roles */
+  --accent: var(--orange);
+  --accent-hover: var(--orange-hover);
+  --accent-press: var(--orange-press);
+  --accent-ink: var(--orange-ink);
+  --accent-soft: rgba(249, 133, 0, 0.12);
+  --on-accent: var(--black);
+
+  --bg: #ffffff;
+  --bg-raised: #f8f8f8;
+  --bg-subtle: var(--mist);
+  --fg1: var(--black);
+  --fg2: var(--grey-deep);
+  --fg3: #808080;
+  --border: #e4e4e4;
+  --border-faint: rgba(10, 10, 11, 0.08);
+
+  /* big brand panels (hero, live globe, pricing, CTA) */
+  --panel: var(--black);
+  --panel-label: #a3a3a3;
+
+  --invert-bg: var(--black);
+  --invert-bg-raised: #161617;
+  --invert-bg-card: var(--anthracite);
+  --invert-fg1: #ffffff;
+  --invert-fg2: #b3b3b3;
+  --invert-fg3: var(--grey);
+  --invert-border: rgba(255, 255, 255, 0.1);
+
+  --success: var(--mint);
+
+  /* category surfaces: everyday = mist, group gifts = anthracite */
+  --cat-light-1: #f6f6f6;
+  --cat-light-2: #ececec;
+  --cat-dark: var(--anthracite);
+
+  --font-sans: 'Geist Variable', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Doto', 'Geist Variable', monospace;
+  --font-serif: 'Computer Modern Serif', Georgia, 'Times New Roman', serif;
+
+  --text-display: 88px;
+  --text-h1: 56px;
+  --text-h2: 40px;
+  --text-h4: 22px;
+  --text-lg: 18px;
+  --text-body: 16px;
+
+  --lh-tight: 1.02;
+  --lh-snug: 1.12;
+  --lh-normal: 1.5;
+
+  --tracking-display: -0.02em;
+  --tracking-head: -0.01em;
+  --tracking-mono: 0.22em;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-xl: 22px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(10, 10, 11, 0.06);
+  --shadow-lg: 0 24px 64px rgba(10, 10, 11, 0.14);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 140ms;
+  --dur: 240ms;
+  --dur-slow: 520ms;
+}
